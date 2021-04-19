@@ -28,7 +28,7 @@ basic framework for learning selenium
 
 
 ## Troubleshooting
-You might face the folowing issue when trying to execute the SampleTest in IntelliJ:
+You might face the following issue when trying to execute the SampleTest in IntelliJ:
 
 ```java
 FAILURE: Build failed with an exception.
