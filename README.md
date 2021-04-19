@@ -1,5 +1,10 @@
 # selenium-playground
-basic framework for learning selenium 
+This is a basic framework used for learning test automation using selenium.
+
+## Pre-requisites
+* Java JDK (>1.8)
+* Firefox (latest version)
+* IntelliJ IDE (Community Edition)
 
 ## Getting Started
 
