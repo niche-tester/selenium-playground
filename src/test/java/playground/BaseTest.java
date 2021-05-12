@@ -1,5 +1,6 @@
 package playground;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.After;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -19,13 +20,12 @@ public class BaseTest {
         FirefoxOptions capabilities = new FirefoxOptions();
         WebDriverManager.firefoxdriver().setup();
         driver = new FirefoxDriver(capabilities);
-        driver.get("http://automationpractice.com/index.php");
+        driver.get("http://live.demoguru99.com/");
     }
 
     @AfterTest
     public void endSession() {
         driver.quit();
     }
-
 
 }
