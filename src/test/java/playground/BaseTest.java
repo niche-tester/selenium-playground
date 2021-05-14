@@ -1,14 +1,11 @@
 package playground;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
-
+import org.testng.annotations.BeforeTest;
 
 public class BaseTest {
 
@@ -19,13 +16,11 @@ public class BaseTest {
         FirefoxOptions capabilities = new FirefoxOptions();
         WebDriverManager.firefoxdriver().setup();
         driver = new FirefoxDriver(capabilities);
-        driver.get("http://automationpractice.com/index.php");
+        driver.get("http://live.demoguru99.com/");
     }
 
     @AfterTest
     public void endSession() {
         driver.quit();
     }
-
-
 }
