@@ -50,5 +50,6 @@ public class SampleTest extends BaseTest {
         driver.findElement(By.xpath("//*[@id=\"email_address\"]")).sendKeys("chelslaguma@gmail.com");
         driver.findElement(By.xpath("//*[@id=\"message\"]")).sendKeys("I love this tv we should buy it ");
         driver.findElement(By.xpath("//*[@id=\"form-validate\"]/div[2]/button")).click();
+
     }
 }
